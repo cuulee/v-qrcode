@@ -1,0 +1,122 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.0.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '.' ]
+2 info using npm@3.10.8
+3 info using node@v6.0.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/wuxiaopan/github/v-qrcode',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/wuxiaopan/.npm/v-qrcode/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/wuxiaopan/.npm correctMkdir not in flight; initializing
+10 info lifecycle v-qrcode@1.0.0~prepublish: v-qrcode@1.0.0
+11 silly lifecycle v-qrcode@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/wuxiaopan/.npm/v-qrcode/1.0.0/package.tgz',
+12 verbose tar pack   '/Users/wuxiaopan/github/v-qrcode' ]
+13 verbose tarball /Users/wuxiaopan/.npm/v-qrcode/1.0.0/package.tgz
+14 verbose folder /Users/wuxiaopan/github/v-qrcode
+15 verbose addLocalTarball adding from inside cache /Users/wuxiaopan/.npm/v-qrcode/1.0.0/package.tgz
+16 verbose correctMkdir /Users/wuxiaopan/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd v-qrcode@1.0.0
+18 verbose afterAdd /Users/wuxiaopan/.npm/v-qrcode/1.0.0/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/wuxiaopan/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/wuxiaopan/.npm/v-qrcode/1.0.0/package/package.json written
+21 silly publish { name: 'v-qrcode',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: 'a qrcode component for vue',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts:
+21 silly publish    { test: 'echo "Error: no test specified" && exit 1',
+21 silly publish      clean: 'rm -rf dist',
+21 silly publish      build: 'npm run clean && webpack && cross-env NODE_ENV=production webpack --config webpack.config.min.js' },
+21 silly publish   author: { name: 'wxp201013@163.com' },
+21 silly publish   license: 'ISC',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/atwxp/v-qrcode.git' },
+21 silly publish   keywords: [ 'vue', 'qrcode' ],
+21 silly publish   dependencies: { qrious: '^2.2.0' },
+21 silly publish   devDependencies:
+21 silly publish    { 'babel-core': '^6.18.2',
+21 silly publish      'babel-loader': '^6.2.8',
+21 silly publish      'babel-preset-es2015': '^6.18.0',
+21 silly publish      'cross-env': '^3.1.3',
+21 silly publish      'vue-loader': '^10.0.2',
+21 silly publish      'vue-template-compiler': '^2.1.4',
+21 silly publish      webpack: '^1.13.3' },
+21 silly publish   readme: '# v-qrcode\n\n## Install\n\n    npm i v-qrcode --save\n\n## Usage\n\n    <template>\n        <div>\n            <qrcode :cls="qrCls" :value="qrText"></qrcode>\n        </div>\n    </template>\n\n    <script>\n    import Qrcode from \'v-qrcode/src/index\'\n\n    export default {\n        data () {\n            return {\n                qrCls: \'qrcode\',\n                qrText: \'hello world\'\n            }\n        },\n        components: {\n            Qrcode\n        }\n    }\n    </script>\n\n## Options\n\n- `value`: the string to generate QR Code\n\n- `cls`: the classname of wrapper, `\'\'` by default\n\n- `size`:  qrcode\'s size, `100*100` by default\n\n- `level`: qrcode\'s level, `L` by default, value can be one of `L, Q, M, H`,\n\n- `background`: the background color, `#fff` by default\n\n- `foreground`: the foreground color, `#000` by default\n\n- `mime`: the mime type of image, `image/png` by default\n\n- `padding`: the padding between qrcode and wrapper, `0` by default\n\n- `type`: the output type can be either `canvas` or `image`\n\n## demo\n\n[demo](https://atwxp.github.io/v-qrcode/dist)\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '50b538b79c01137a0f9e6133eafd97508f5e0699',
+21 silly publish   bugs: { url: 'https://github.com/atwxp/v-qrcode/issues' },
+21 silly publish   homepage: 'https://github.com/atwxp/v-qrcode#readme',
+21 silly publish   _id: 'v-qrcode@1.0.0',
+21 silly publish   _shasum: 'a41c5623d592a82f9773a88fe31add9026484279',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name v-qrcode
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'v-qrcode',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'v-qrcode',
+26 silly mapToRegistry   name: 'v-qrcode',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/v-qrcode
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/wuxiaopan/.npm/v-qrcode/1.0.0/package.tgz
+30 verbose request uri https://registry.npmjs.org/v-qrcode
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 22:43:54
+33 verbose request using bearer token for auth
+34 verbose request id 0f3200b5cae362e7
+35 http request PUT https://registry.npmjs.org/v-qrcode
+36 http 403 https://registry.npmjs.org/v-qrcode
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Mon, 05 Dec 2016 14:43:56 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-itm7422-ITM',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1480949035.448966,VS0,VE936',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /Users/wuxiaopan/.npm/registry.npmjs.org/v-qrcode on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 1.0.0." : v-qrcode
+40 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1044:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:965:12)
+41 verbose statusCode 403
+42 verbose pkgid v-qrcode
+43 verbose cwd /Users/wuxiaopan/github/v-qrcode
+44 error Darwin 15.5.0
+45 error argv "/usr/local/Cellar/node/6.0.0/bin/node" "/usr/local/bin/npm" "publish" "."
+46 error node v6.0.0
+47 error npm  v3.10.8
+48 error code E403
+49 error "You cannot publish over the previously published version 1.0.0." : v-qrcode
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
