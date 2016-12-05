@@ -10,6 +10,14 @@
   },
   "author": "wxp201013@163.com",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atwxp/v-qrcode.git"
+  },
+  "keywords": [
+    "vue",
+    "qrcode"
+  ],
   "dependencies": {
     "qrious": "^2.2.0"
   },

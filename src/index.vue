@@ -11,7 +11,7 @@ export default {
 
         cls: {
             type: String,
-            default: 'qrcode'
+            default: ''
         },
 
         elem: {
