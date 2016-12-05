@@ -6,7 +6,7 @@ export default function () {
     webpackConfig.entry.index.unshift('webpack-dev-server/client?http://localhost:8080/')
 
     new webpackDevServer(webpack(webpackConfig), {
-        publicPath: '/',
+        publicPath: webpackConfig.publicPath,
 
         // terminal config
         quiet: false,

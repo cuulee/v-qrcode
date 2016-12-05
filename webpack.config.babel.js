@@ -10,11 +10,13 @@ const abs = (...values) => {
     return path.resolve.apply(null, p);
 };
 
-const srcPath = abs('src');
+const srcPath = abs('src')
 
-const outputPath = abs('dist');
+const outputPath = abs('dist')
 
-const assetsPath = '/static/';
+const isProduction = process.env.NODE_ENV === 'production'
+
+const assetsPath = isProduction ? '/v-qrcode/dist/' : '/'
 
 export default {
     context: srcPath,
@@ -28,7 +30,7 @@ export default {
 
         filename: '[name].js',
 
-        publicPath: '/'
+        publicPath: assetsPath
     },
 
     module: {
