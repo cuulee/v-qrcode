@@ -1,7 +1,5 @@
 # v-qrcode
 
-A Vue QRCode Component.
-
 ## Install
 
     npm i v-qrcode --save
@@ -52,4 +50,4 @@ A Vue QRCode Component.
 
 ## demo
 
-[demo](https://atwxp.github.io/v-qrcode/)
+[demo](https://atwxp.github.io/v-qrcode/dist)
