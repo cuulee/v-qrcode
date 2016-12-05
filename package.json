@@ -30,6 +30,7 @@
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
+    "v-qrcode": "^1.0.0",
     "vue": "^2.1.4"
   }
 }
